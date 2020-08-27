@@ -1,0 +1,8 @@
+print('Digite seis palavras')
+p1 = str(input('Primeira palavra: '))
+p2 = str(input('Segunda palavra: '))
+p3 = str(input('Terceira palavra: '))
+p4 = str(input('Quarta palavra: '))
+p5 = str(input('Quinta palavra: '))
+p6 = str(input('Sexta palavra: '))
+print('\033[0;30;41m{}\033[m \n \033[4;33;44m{}\033[m \n \033[1;35;43m{}\033[m \n \033[30;42m{}\033[m \n \033[m{}\033[m \n \033[7;30m{}\033[m'.format(p1, p2, p3, p4, p5, p6))
